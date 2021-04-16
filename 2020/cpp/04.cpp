@@ -25,12 +25,6 @@ bool str_in_range(std::string str, int low, int high)
     return in_range(num, low, high);
 }
 
-bool check_byr(std::string)
-{
-
-    return true;
-}
-
 int main()
 {
     auto begin = std::chrono::high_resolution_clock::now();
