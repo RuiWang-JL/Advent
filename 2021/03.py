@@ -1,4 +1,7 @@
 import copy
+import time
+start_time = time.time()
+
 with open('day3.txt', 'r+') as f:
     lines = [line.strip() for line in f.readlines()]
 
@@ -34,3 +37,5 @@ def findLastOne(old, reverse):
 
 
 print(findLastOne(lines, False) * findLastOne(lines, True))
+
+print("--- %s seconds ---" % (time.time() - start_time))
