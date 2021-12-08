@@ -1,5 +1,4 @@
 from collections import Counter
-from collections import Counter
 import collections
 with open('day7.txt', 'r+') as f:
     lines = [line.strip() for line in f.readlines()]
