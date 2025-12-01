@@ -1,0 +1,8 @@
+[project]
+name = "advent-of-code"
+version = "0.1.0"
+description = "Solutions for Advent of Code"
+requires-python = ">=3.12"
+authors = [
+    {name = "RuiWang-JL"},
+]
